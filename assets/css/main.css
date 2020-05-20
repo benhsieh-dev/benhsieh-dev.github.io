@@ -44,6 +44,23 @@ a a:focus {
   outline: none;
 }
 
+/* .skill {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.skill:hover {
+  text-decoration: none;
+}
+
+.skill .skill:focus {
+  outline: none;
+} */
+
+
+
 p {
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
