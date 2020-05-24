@@ -645,7 +645,7 @@
             <div class="col-md-6 col-lg-6 col-sm-12">
               <div class="contact-block">
                 <h2>Contact Form</h2>
-                <form id="contactForm">
+                <form id="contactForm" action="https://formspree.io/bqh5026@gmail.com" method="POST">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -661,13 +661,13 @@
                     </div>
                      <div class="col-md-12">
                       <div class="form-group">
-                        <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                        <input type="text" placeholder="Subject" id="msg_subject" name="subject" class="form-control" required data-error="Please enter your subject">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
                     <div class="col-md-12">
                       <div class="form-group"> 
-                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
                         <div class="help-block with-errors"></div>
                       </div>
                       <div class="submit-button">
@@ -700,7 +700,7 @@
                     <div class="contact-icon">
                       <i class="fa fa-phone"></i>
                     </div>
-                    <p><a href="#">(347) 257 9966</a></p>
+                    <p><a href="tel:3472579966">(347) 257 9966</a></p>
                   </div>
                 </div>
               </div>
