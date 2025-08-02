@@ -78,9 +78,10 @@ ul li, ol li {
   list-style: none;
 }
 
-/* ul li, ol li {
+
+ul li, ol li {
   list-style: circle;
-} */
+}
 
 .projects > li {
   list-style: circle;
